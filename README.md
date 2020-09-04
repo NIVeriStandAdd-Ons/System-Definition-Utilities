@@ -23,8 +23,6 @@ OFFLINE==FALSE(Default) - marks code that can be executed within the context of 
 
 The reason is that due to cross-referencing, the Advanced System Definition API library and some of it's member VIs might included in the Engine builds for the RT targes, and this will lead to errors during builds ( since .NET controls used in this library are not supported on RT Targets).
 
-The Changes were made using LV2017
-
 ### Dependencies ###
 
 NI VeriStand 2016
