@@ -8,7 +8,7 @@ Install the VI package in the Built folder.
 
 ### LabVIEW Version ###
 
-LabVIEW 2016
+LabVIEW 2017
 
 ### Built Availability ###
 
@@ -25,7 +25,7 @@ The reason is that due to cross-referencing, the Advanced System Definition API 
 
 ### Dependencies ###
 
-NI VeriStand 2016
+NI VeriStand 2017
 
 ### License ###
 
