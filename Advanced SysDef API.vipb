@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-04-20 11:46:53" Modified_Date="2020-09-11 14:26:26" Creator="Tanner Blair" Comments="" ID="3af611c61e9faf74f9311c32434dc868">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-04-20 11:46:53" Modified_Date="2020-10-06 09:55:17" Creator="Tanner Blair" Comments="" ID="5cb80863765f8cdd236a5083d0a35f49">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_Advanced_SysDef_API</Package_File_Name>
-    <Library_Version>1.1.1.21</Library_Version>
+    <Library_Version>1.1.1.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Built</Library_Output_Folder>
@@ -39,7 +39,7 @@ https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilitie
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities</URL>
-      <Release_Notes>(#11) Implemented CDS structures with OFFLINE==TRUE and OFFLINE==FALSE(Default) options for the committed VIs =&gt; the lack of CDS structures with these options was causing compile errors when building Engine libraries for Custom Devices for RT Targets.</Release_Notes>
+      <Release_Notes>(#12) Implemented CDS structures with OS==Win and OS==RT(Default) options for the committed VIs for better OS support, instead of the previous keys: OFFLINE==True and OFFLINE==False(Default) =&gt; the lack of CDS structures with these options was causing compile errors when building Engine libraries for Custom Devices for RT Targets.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -343,7 +343,7 @@ https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilitie
         <Path>Source\SysDef API\SysDef.UpdateCDVersionFromXML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB99A2E680304CD5D42AFFF5A932F18A</GUID>
+      <GUID>013FBA28591B0AC0A55958DF0197428F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
